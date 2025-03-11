@@ -8,7 +8,7 @@
 */ 
 
 :root{
- --Fmts-background:#090909;
+ --Fmts-background:#CEC7C0;
  --Fmns-Font:'Intro-inline'; 
 }
 
@@ -24,7 +24,7 @@
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
-  border-image:linear-gradient(to bottom, #C3935F 0%, var(--Fmnts-Accent) 90%) 1;
+  border-image:linear-gradient(to bottom, #191919 0%, var(--Fmnts-Accent) 90%) 1;
   background:var(--Fmts-background);
 }
 
@@ -87,7 +87,7 @@
   display:grid;
   place-items:center;
   font-family:var(--Fmns-Font);
-  font-size:30px;
+  font-size:25px;
   color:white;
 }
 
