@@ -128,15 +128,7 @@
  
 }
 
-#Fmnts-bg .C:after {
-  display: block;
-  content: "「ꕤ」";
-  font-family:calibri; 
-  font-size: 10px; 
-  font-weight:800;
-  letter-spacing:4px; 
-  color: black; 
-}
+
 
 
 @font-face {
