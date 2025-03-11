@@ -33,10 +33,11 @@
   width:88%;
   height:auto;
   padding:50px;
-  font-family:sans-serif;
+  font-family:Amethysta, sans-serif;
   font-size:13px;
   text-align:justify;
   line-height:18px;
+  letter-spacing:2px;
   color:var(--Fmnts-text);
   display:flex;
   flex-wrap:wrap;
