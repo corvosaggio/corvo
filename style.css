@@ -187,7 +187,7 @@
 }
 
 #rartificiallove {
-  width: 500px;
+  width: 600px;
 }
 
 #rartificiallove .rbg {
@@ -208,7 +208,7 @@
 
 #rartificiallove .rtitle {
   width: calc(100% - 151px);
-  height: 150px;
+  height: 100px;
   box-sizing: border-box;
   border: 1px solid #dadada;
   display: inline-block;
@@ -241,7 +241,7 @@
   padding: 30px;
   margin: 1px 0;
   font: 11px/20px Ubuntu;
-  text-align: justify;
+  text-align: center;
 }
 
 #rartificiallove .robs {
