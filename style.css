@@ -1,6 +1,4 @@
 
-
-
 :root{
  --Fmts-background:#090909;
  --Fmns-Font:'Intro-inline'; 
@@ -14,11 +12,11 @@
   height:auto;
   margin:0px auto;
   position:relative;
-  border:20px solid;
+  border:5px solid;
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
-  border-image:linear-gradient(to bottom, #151515 0%, var(--Fmnts-Accent) 100%) 2;
+  border-image:linear-gradient(to bottom, #151515 0%, var(--Fmnts-Accent) 100%) 1;
   background:var(--Fmts-background);
 }
 
@@ -59,6 +57,7 @@
   position: relative;
   display:grid;
   place-items:center;
+ text-align: center;
 }
 
 #Fmnts-bg footer::after {
@@ -73,12 +72,11 @@
 }
 
 #Fmnts-bg footer ctn{
-  width:100%;
+  width:50%;
   position:absolute;
   z-index:2;
   display:grid;
   place-items:center;
-  text-align: center;
   font-family:var(--Fmns-Font);
   font-size:35px;
   color:white;
@@ -183,7 +181,7 @@
 }
 
 #rartificiallove {
-  width: 600px;
+  width: 500px;
 }
 
 #rartificiallove .rbg {
@@ -191,12 +189,12 @@
 }
 
 #rartificiallove .rimg {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   background: center/cover;
   background-clip: content-box;
   padding: 3px;
-  border: 0px solid #dadada;
+  border: 1px solid #dadada;
   box-sizing: border-box;
   display: inline-block;
   vertical-align: top;
@@ -204,7 +202,9 @@
 
 #rartificiallove .rtitle {
   width: calc(100% - 151px);
-  height: 100px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 1px solid #dadada;
   display: inline-block;
   vertical-align: top;
   margin: 0 0 0 1px;
@@ -225,15 +225,13 @@
   font: 50px/30px Hijrnotes;
   text-transform: lowercase;
   letter-spacing: 0;
-  padding-bottom: 05px;
+  padding-bottom: 15px;
 }
 
 #rartificiallove .rtxt {
   width: 100%;
-  
-  padding: 10px;
+  padding: 30px;
   margin: 1px 0;
   font: 11px/20px Ubuntu;
   text-align: center;
 }
-
