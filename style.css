@@ -205,8 +205,6 @@
 #rartificiallove .rtitle {
   width: calc(100% - 151px);
   height: 100px;
-  box-sizing: border-box;
-  border: 0px solid #dadada;
   display: inline-block;
   vertical-align: top;
   margin: 0 0 0 1px;
@@ -232,8 +230,7 @@
 
 #rartificiallove .rtxt {
   width: 100%;
-  border: 0px solid #dadada;
-  box-sizing: border-box;
+  
   padding: 10px;
   margin: 1px 0;
   font: 11px/20px Ubuntu;
