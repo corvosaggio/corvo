@@ -20,7 +20,7 @@
   height:auto;
   margin:0px auto;
   position:relative;
-  border:5px solid;
+  border:10px solid;
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
@@ -34,7 +34,7 @@
   height:auto;
   padding:50px;
   font-family:sans-serif;
-  font-size:11px;
+  font-size:13px;
   text-align:justify;
   line-height:18px;
   color:var(--Fmnts-text);
