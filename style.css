@@ -1,0 +1,143 @@
+
+:root{
+ --Fmts-background:#090909;
+ --Fmns-Font:'Intro-inline'; 
+}
+
+@font-face {font-family:'Intro-inline'; src: url('https://dl.dropbox.com/scl/fi/lgud13lzkxay0vixhro5g/Intro-Inline.otf?rlkey=sz20w3js4b1i49wrqc2d8u5w4&dl=0');}
+
+
+#Fmnts-bg{  
+  width:600px;
+  height:auto;
+  margin:0px auto;
+  position:relative;
+  border:10px solid;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  border-image:linear-gradient(to bottom, #151515 0%, var(--Fmnts-Accent) 100%) 1;
+  background:var(--Fmts-background);
+}
+
+
+#Fmnts-bg section{
+  width:88%;
+  height:auto;
+  padding:50px;
+  font-family:sans-serif;
+  font-size:11px;
+  text-align:justify;
+  line-height:18px;
+  color:var(--Fmnts-text);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+
+#Fmnts-bg section::selection, #Fmnts-bg section quote::selection, #Fmnts-bg footer ctn::selection, #Fmnts-bg footer ctn quote::selection{background:var(--Fmnts-Accent);}
+
+#Fmnts-bg section quote{
+  width:50%;
+  padding:30px 0;
+  margin-bottom:26px;
+  font-family:Sans-serif;
+  font-size:9px;
+  font-weight:400;
+  line-height:10px;
+  letter-spacing:3px;
+  text-align:right;
+  color:var(--Fmnts-Accent);
+  border-bottom:1px solid var(--Fmnts-Accent);
+}
+
+#Fmnts-bg footer{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  display:grid;
+  place-items:center;
+}
+
+#Fmnts-bg footer::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, transparent 40%, var(--Fmts-background) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#Fmnts-bg footer ctn{
+  width:50%;
+  position:absolute;
+  z-index:2;
+  display:grid;
+  place-items:center;
+  font-family:var(--Fmns-Font);
+  font-size:35px;
+  color:white;
+}
+
+#Fmnts-bg icon{
+  font-size:20px;
+  color: var(--Fmnts-Accent)!important;
+}
+
+#Fmnts-bg icon i{
+  margin-bottom:8px;
+}
+
+#Fmnts-bg footer ctn quote{
+  min-height:25px;
+  max-height:50px;
+  margin-top:7px;
+  font-family:Sans-serif;
+  font-size:7px;
+  font-weight:400;
+  letter-spacing:3px;
+  text-align:center;
+  line-height:10px;
+  overflow:auto;
+ 
+}
+#Fmnts-bg footer ctn quote::-webkit-scrollbar{
+  display:none}
+
+#Fmnts-bg footer .Fmnts-img{
+  width: 100%;
+  height: 100%;
+  background: center/cover;
+}
+
+
+#Fmnts-bg footer .Fmnts-Fltr{
+  width:100%;
+  height:100%;
+  background:var(--Fmnts-Accent);
+  mix-blend-mode:multiply;
+}
+
+#Fmnts-bg .C{
+  position:absolute;
+  bottom:-20px;
+  z-index:999!important;
+  text-decoration: none;
+ 
+}
+
+#Fmnts-bg .C:after {
+  display: block;
+  content: "「ꕤ」";
+  font-family:calibri; 
+  font-size: 10px; 
+  font-weight:800;
+  letter-spacing:4px; 
+  color: black; 
+}
+
+#Fmnts-bg .C:hover::after {
+  content: "「CIARAN」";
+}
