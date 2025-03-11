@@ -1,4 +1,6 @@
 
+
+
 :root{
  --Fmts-background:#090909;
  --Fmns-Font:'Intro-inline'; 
@@ -12,11 +14,11 @@
   height:auto;
   margin:0px auto;
   position:relative;
-  border:10px solid;
+  border:20px solid;
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
-  border-image:linear-gradient(to bottom, #151515 0%, var(--Fmnts-Accent) 100%) 1;
+  border-image:linear-gradient(to bottom, #151515 0%, var(--Fmnts-Accent) 100%) 2;
   background:var(--Fmts-background);
 }
 
@@ -71,11 +73,12 @@
 }
 
 #Fmnts-bg footer ctn{
-  width:50%;
+  width:100%;
   position:absolute;
   z-index:2;
   display:grid;
   place-items:center;
+  text-align: center;
   font-family:var(--Fmns-Font);
   font-size:35px;
   color:white;
@@ -120,13 +123,6 @@
   mix-blend-mode:multiply;
 }
 
-#Fmnts-bg .C{
-  position:absolute;
-  bottom:-20px;
-  z-index:999!important;
-  text-decoration: none;
- 
-}
 
 
 
@@ -195,12 +191,12 @@
 }
 
 #rartificiallove .rimg {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background: center/cover;
   background-clip: content-box;
   padding: 3px;
-  border: 1px solid #dadada;
+  border: 0px solid #dadada;
   box-sizing: border-box;
   display: inline-block;
   vertical-align: top;
@@ -210,7 +206,7 @@
   width: calc(100% - 151px);
   height: 100px;
   box-sizing: border-box;
-  border: 1px solid #dadada;
+  border: 0px solid #dadada;
   display: inline-block;
   vertical-align: top;
   margin: 0 0 0 1px;
@@ -231,31 +227,16 @@
   font: 50px/30px Hijrnotes;
   text-transform: lowercase;
   letter-spacing: 0;
-  padding-bottom: 15px;
+  padding-bottom: 05px;
 }
 
 #rartificiallove .rtxt {
   width: 100%;
-  border: 1px solid #dadada;
+  border: 0px solid #dadada;
   box-sizing: border-box;
-  padding: 30px;
+  padding: 10px;
   margin: 1px 0;
   font: 11px/20px Ubuntu;
   text-align: center;
 }
-
-#rartificiallove .robs {
-  width: calc(100% - 151px);
-  height: 150px;
-  box-sizing: border-box;
-  border: 1px solid #dadada;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 1px 0 0;
-  padding: 0 0px;
-  text-transform: uppercase;
-  font: italic bold 10px/12px Times;
-  letter-spacing: 2px;
-}
-
 
