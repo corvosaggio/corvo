@@ -8,7 +8,7 @@
 */ 
 
 :root{
- --Fmts-background:#282828;
+ --Fmts-background:#867450;
  --Fmns-Font:'Intro-inline'; 
 }
 
@@ -77,7 +77,7 @@
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
-  border-image:linear-gradient(to bottom, #282828 0%, var(--Fmnts-Accent) 90%) 1;
+  border-image:linear-gradient(to bottom, #867450 0%, var(--Fmnts-Accent) 90%) 1;
   background:var(--Fmts-background);
 }
 
