@@ -85,7 +85,7 @@
 #Fmnts-bg section{
   width:88%;
   height:auto;
-  padding:50px;
+  padding:30px;
   font-family:Ubuntu, sans-serif;
   font-size:14px;
   text-align:justify;
@@ -103,11 +103,11 @@
   width:50%;
   padding:5px 0;
   margin-bottom:26px;
-  font-family:Sans-serif;
-  font-size:9px;
+  font-family:Ubuntu, Sans-serif;
+  font-size:10px;
   font-weight:400;
   line-height:10px;
-  letter-spacing:2px;
+  letter-spacing:3px;
   text-align:right;
   color:var(--Fmnts-Accent);
   border-bottom:1px solid var(--Fmnts-Accent);
