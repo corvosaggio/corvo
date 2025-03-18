@@ -11,7 +11,7 @@
 @font-face {font-family:'Alloe'; src: url('https://dl.dropbox.com/s/vf4ehb3vcwn86a6/Love.ttf');}
 
 #SlWh-container-bg{
-  width:550px;
+  width:500px;
   margin:0 auto;
   position:relative;
   border:10px solid var(--SlWh-border);
