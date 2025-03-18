@@ -1,0 +1,126 @@
+/* 
+ 
+      #44 - SILENT WHISPERS
+      Copyright (C) 2023 CiaranSoul
+      Visit for my codes: https://ciaransoul.tumblr.com
+      DON'T REMOVE MY CREDITS.
+
+*/ 
+
+
+@font-face {font-family:'Alloe'; src: url('https://dl.dropbox.com/s/vf4ehb3vcwn86a6/Love.ttf');}
+
+#SlWh-container-bg{
+  width:550px;
+  margin:0 auto;
+  position:relative;
+  border:10px solid var(--SlWh-border);
+  font-family: 'Fira Sans', sans-serif;
+  text-align:justify;
+}
+
+#SlWh-container-bg .SlWh-header-img{
+    width: 100%;
+    height: 400px;
+    position:relative;
+}
+
+#SlWh-container-bg .SlWh-header-img .SlWh-flt-cl{
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--SlWh-clr-Filter);
+}
+
+#SlWh-container-bg .SlWh-header-img .SlWh-flt-cl2{
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top:0;
+  backdrop-filter: blur(0px);
+ -webkit-backdrop-filter: blur(0px);
+}
+
+#SlWh-container-bg section{
+  width:100%;
+  height:200px;
+  clip-path: circle(95% at 50% 240%);
+  background:var(--SlWh-bg-L-D);
+  position:absolute;
+  bottom:0%;
+}
+
+#SlWh-container-bg #SlWh-textcont{
+  width:92.8%;
+  padding:20px;
+  background:var(--SlWh-bg-L-D);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+#SlWh-container-bg #SlWh-textcont header{
+  width:50%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  color:var(--SlWh-clr-text);
+  
+}
+
+#SlWh-container-bg #SlWh-textcont header qt{
+  font-size:9px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+#SlWh-container-bg #SlWh-textcont header tx{
+  padding:5px;
+  font-family:'Alloe';
+  font-size:34px;
+  text-transform:uppercase;
+  color:var(--SlWh-Accent);
+}
+
+#SlWh-container-bg #SlWh-textcont header quote{
+  width:60%;
+  margin-top:50px;
+  padding-left:10px;
+  border-left:4px solid var(--SlWh-Accent);
+  font-size:8px;
+  line-height:9px;
+  letter-spacing:2px;
+}
+
+.SlWh-body-text{
+  z-index:99!important;
+  margin-top:10%;
+  padding:5% 9%;
+  line-height:14px;
+  color:var(--SlWh-clr-text);
+}
+
+.SlWh-body-text i{
+  color:var(--SlWh-Accent);
+}
+
+
+#SlWh-container-bg .C{
+   position:absolute;
+  bottom:15px;
+  right:0;
+  padding: 3px 5px;
+  z-index:999!important;
+  font-family:calibri; 
+  font-size: 10px; 
+  font-weight:800;
+  letter-spacing:4px; 
+  text-decoration: none;
+  color:var(--SlWh-clr-text); 
+  background:var(--SlWh-border);
+}
