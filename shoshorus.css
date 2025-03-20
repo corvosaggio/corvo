@@ -1,0 +1,219 @@
+/* 
+      — ʚїɞ —
+      4 MINUTES - POST REWORK
+      Copyright (C) 2024 CiaranSoul
+      Visit for my codes: https://ciaransoul.tumblr.com
+      DON'T REMOVE MY CREDITS.
+
+*/ 
+
+:root{
+ --Fmts-background:#292928;
+ --Fmns-Font:'Intro-inline'; 
+}
+
+@font-face {font-family:'Intro-inline'; src: url('https://dl.dropbox.com/scl/fi/lgud13lzkxay0vixhro5g/Intro-Inline.otf?rlkey=sz20w3js4b1i49wrqc2d8u5w4&dl=0');}
+
+@font-face {
+    font-family: "Hijrnotes";
+    src: url(https://dl.dropbox.com/s/q8e5irgcei9i6lw/Hijrnotes_PERSONAL_USE_ONLY.ttf);
+    format("truetype");
+}
+
+#Fmnts-bg{  
+  width:650px;
+  max-width:100%;
+  margin:0px auto;
+  position:relative;
+  border:10px solid;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  border-image:linear-gradient(to bottom, #CEC7C0 0%, var(--Fmnts-Accent) 100%) 1;
+  background:var(--Fmts-background);
+  
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   width: 100%;
+  max-width: 650px; /* Para que nada ultrapasse esse limite */
+  margin: 0 auto;
+}
+
+#Fmnts-bg section{
+  width:88%;
+  height:auto;
+  padding:50px;
+  font-family:Amethysta, sans-serif;
+  font-size:13px;
+  text-align:justify;
+  line-height:14px;
+  letter-spacing:1px;
+  color:var(--Fmnts-text);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+
+#Fmnts-bg section::selection, #Fmnts-bg section quote::selection, #Fmnts-bg footer ctn::selection, #Fmnts-bg footer ctn quote::selection{background:var(--Fmnts-Accent);}
+
+#Fmnts-bg section quote{
+  width:50%;
+  padding:5px 0;
+  margin-bottom:26px;
+  font-family:Amethysta;
+  font-size:12px;
+  font-weight:400;
+  line-height:10px;
+  letter-spacing:2px;
+  text-align:right;
+  color:var(--Fmnts-Accent);
+  border-bottom:1px solid var(--Fmnts-Accent);
+}
+
+
+.Fmnts-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Fmnts-container img {
+  width: 200px; /* Ajuste conforme necessário */
+  height: auto;
+}
+
+
+#Fmnts-bg footer{
+  width: 100%;
+  height: auto;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 20px 0;
+  overflow: hidden; /* Se algo estiver vazando, isso impede */
+}
+
+#Fmnts-bg footer::after {
+  
+  display: none;
+}
+
+#Fmnts-bg footer ctn{
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--Fmns-Font);
+  font-size: 25px;
+  color: white;
+  position: relative;
+}
+
+#Fmnts-bg icon{
+  font-size:20px;
+  color: var(--Fmnts-Accent)!important;
+}
+
+#Fmnts-bg icon i{
+  margin-bottom:8px;
+}
+
+#Fmnts-bg footer ctn quote{
+  min-height:25px;
+  max-height:50px;
+  margin-top:7px;
+  font-family:Sans-serif;
+  font-size:7px;
+  font-weight:400;
+  letter-spacing:3px;
+  text-align:center;
+  line-height:10px;
+  overflow:auto;
+ 
+}
+#Fmnts-bg footer ctn quote::-webkit-scrollbar{
+  display:none}
+
+#Fmnts-bg footer .Fmnts-img{
+  width: 100%;
+  height: 100%;
+  background: center/cover;
+}
+
+
+#Fmnts-bg footer .Fmnts-Fltr{
+  width:100%;
+  height:100%;
+  
+  
+}
+
+#rartificiallove {
+  width: 500px;
+}
+
+#rartificiallove .rbg {
+  padding: 5px;
+}
+
+#rartificiallove .rimg {
+  width: 150px;
+  height: 150px;
+  background: center/cover;
+  background-clip: content-box;
+  padding: 3px;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#rartificiallove .rtitle {
+  width: calc(100% - 151px);
+  height: 150px;
+  box-sizing: border-box;
+  border: 1px solid #dadada;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 1px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font: italic bold 10px/12px Times;
+  letter-spacing: 2px;
+}
+
+#rartificiallove .ralign {
+  position: relative;
+  top: 50%;
+  transform: translatey(-50%);
+  color: #ab0218;
+}
+
+#rartificiallove .rtitle b {
+  display: block;
+  font: 50px/30px Hijrnotes;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  padding-bottom: 15px;
+}
+
+#rartificiallove .rtxt {
+  width: 100%;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  padding: 30px;
+  margin: 1px 0;
+  font: 11px/20px Ubuntu;
+  text-align: center;
+}
