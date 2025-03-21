@@ -94,6 +94,7 @@
   letter-spacing:1px;
   color:var(--Fmnts-text);
   display:flex;
+  flex-wrap:wrap;
   
  
 }
