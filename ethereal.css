@@ -1,0 +1,158 @@
+html, body {
+    background-color: #463923;
+} @font-face {
+    font-family: 'Amoret Script';
+    src: url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+    
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+  
+.island-moments-regular {
+  font-family: "Island Moments", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+  
+
+  .total-postitW {
+    height: auto;
+    width: 800px;
+    margin: auto;
+    position: relative;
+    padding-top: 1px;
+    background: #f6f1e7;
+    border: 10px solid #342a19;
+    box-shadow: 0 0 5px rgba(180, 140, 90, 0.3);
+  }
+
+  /* Imagem atrás do título */
+  .title-bg-symbol {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    opacity: 0.15;
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+  }
+
+  .title-bg-symbol img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .nombroW {
+    color: #b2894f;
+    font-size: 40px;
+    font-family: "Island Moments", cursive;
+    text-transform: lowercase;
+    line-height: 100%;
+    position: absolute;
+    top: 0;
+    width: 450px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .nombro2W {
+    color: #9f9898;
+    font-size: 10px;
+    font-family: Georgia, serif;
+    text-transform: lowercase;
+    line-height: 100%;
+    position: absolute;
+    top: 0;
+    border-bottom: 2px solid #bfa77b;
+    width: 450px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+  }
+
+  .particiW {
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    max-width: 445px;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 10px;
+    line-height: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    color: #4d3e3e;
+    background: #d4b07d;
+    justify-content: flex-end;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .loremyaW {
+    background: #gfffaf1;
+    margin-top: 120px !important;
+    padding: 20px;
+    height: auto;
+    color: #2F2E2C;
+    font-family: 'Island Moments", cursive';
+    font-size: 14px;
+    line-height: 160%;
+    text-align: justify;
+    position: relative;
+  }
+
+  .gif-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .symbol-gif {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #9b652c;
+    padding: 1px;
+    background-color: transparent;
+    box-shadow: 0 0 4px rgba(120, 100, 80, 0.2);
+  }
+
+  .gif-caption {
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    font-style: italic;
+    color: #9b652c;
+    text-align: left;
+    border-left: 1px solid #9b652c;
+    padding-left: 8px;
+    line-height: 140%;
+  }
+
+  #cyala-sign {
+    font-size: 1px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+  }
+
+  #cyala-sign a {
+    text-decoration: none !important;
+  }
