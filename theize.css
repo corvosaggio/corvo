@@ -1,0 +1,227 @@
+
+@font-face {font-family:'Intro-inline'; src: url('https://dl.dropbox.com/scl/fi/lgud13lzkxay0vixhro5g/Intro-Inline.otf?rlkey=sz20w3js4b1i49wrqc2d8u5w4&dl=0');}
+
+    
+ 
+.island-moments-regular {
+  font-family: "Island Moments", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.golden-border {
+    border: 2px solid #b2894f;
+    width: 700px;
+  }
+
+  .total-post {
+    height: auto;
+    width: 680px;
+    margin: auto;
+    position: relative;
+    padding-top: 1px;
+    background: #f6f1e7;
+    border: 10px solid #342a19;
+    box-shadow: 0 0 5px rgba(180, 140, 90, 0.3);
+  }
+
+  /* Imagem atrás do título */
+  .title-bg-symbol {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    opacity: 0.15;
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+  }
+
+  .title-bg-symbol img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .title-kayra {
+    color: #b2894f;
+    font-size: 40px;
+    font-family: "Island Moments", cursive;
+    line-height: 100%;
+    position: absolute;
+    top: 0;
+    width: 450px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .detail-title {
+    color: #9f9898;
+    font-size: 10px;
+    font-family: Georgia, serif;
+    line-height: 10%;
+    position: absolute;
+    top: 0;
+    border-bottom: 2px solid #bfa77b;
+    width: 450px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+  }
+
+  .subtitle-kayra {
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    max-width: 445px;
+    font-family: Georgia, serif;
+    text-align: right;
+    font-size: 10px;
+    line-height: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    color: #4d3e3e;
+    background: #d4b07d;
+    justify-content: flex-end;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .paragraphs {
+    background: #fjffaf1;
+    margin-top: 30px !important;
+    margin-left:20px;
+    margin-bottom:20px;
+    width: 600px;
+    padding: 20px;
+    height: auto;
+    color: #2F2E2C;
+    font-family: 'Georgia';
+    font-size: 14px;
+    line-height: 100%;
+    text-align: justify;
+    position: relative;
+  }
+
+  .gif-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .symbol-gif {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #9b652c;
+    padding: 1px;
+    background-color: transparent;
+    box-shadow: 0 0 4px rgba(120, 100, 80, 0.2);
+  }
+
+  .gif-caption {
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    color: #9b652c;
+    text-align: left;
+    border-left: 1px solid #9b652c;
+    padding-left: 8px;
+    line-height: 140%;
+  }
+
+
+.container {
+  width:600px;
+  display: flex;
+  align-items: center;
+  background-color: #f6f0e9;
+  font-family: 'Georgia', serif;
+  padding: 10px 20px;
+  color: #8a4b1c;
+}
+
+.left {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.divider {
+  border-left: 0px solid #000;
+  height: 40px;
+  margin-right: 150px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.symbols {
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-bottom: 4px;
+  
+}
+
+.quote .line1 {
+  font-size: 11px;
+  font-weight: bold;
+  
+}
+
+.quote .line2 {
+  font-size: 10px;
+  font-weight: bold;
+  
+  color: #444;
+}
+
+.info {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.name {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.detail {
+  color: #8a4b1c;
+  font-weight: bold;
+}
+
+.solarys {
+  color: #444;
+  font-style: italic;
+}
+
+
+.gif-kayra {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+
+   .gif-position {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #9b652c;
+    padding: 1px;
+    background-color: transparent;
+    box-shadow: 0 0 4px rgba(120, 100, 80, 0.2);
+  }
