@@ -17,7 +17,7 @@
 
   .total-postitW {
     height: auto;
-    width: 650px;
+    width: 630px;
     margin: auto;
     position: relative;
     padding-top: 1px;
@@ -100,7 +100,7 @@
 
   .loremyaW {
     background: #gfffaf1;
-    margin-top: 50px;
+    margin-top: 80px !important;
     width: 600px;
     padding: 20px;
     height: auto;
