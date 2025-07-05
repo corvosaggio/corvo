@@ -1,14 +1,8 @@
-html, body {
-    background-color: #463923;
-} @font-face {
-    font-family: 'Amoret Script';
-    src: url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+@font-face {font-family:'Intro-inline'; src: url('https://dl.dropbox.com/scl/fi/lgud13lzkxay0vixhro5g/Intro-Inline.otf?rlkey=sz20w3js4b1i49wrqc2d8u5w4&dl=0');}
 
     
-  }
-  @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
-
-  
+ 
 .island-moments-regular {
   font-family: "Island Moments", cursive;
   font-weight: 400;
