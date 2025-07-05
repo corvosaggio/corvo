@@ -11,7 +11,10 @@
 
 
 
-  
+   .borda {
+    border: 1px solid #87765a;
+    width: 600px;
+  }
 
   .total-postitW {
     height: auto;
