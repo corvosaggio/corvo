@@ -15,7 +15,7 @@
 
   .total-postitW {
     height: auto;
-    width: 600px;
+    width: 650px;
     margin: auto;
     position: relative;
     padding-top: 1px;
@@ -98,11 +98,11 @@
 
   .loremyaW {
     background: #gfffaf1;
-    margin-top: 20px !important;
+    margin-top: 0px;
     padding: 20px;
     height: auto;
     color: #2F2E2C;
-    font-family: 'Island Moments", cursive';
+    font-family: 'Georgia';
     font-size: 14px;
     line-height: 160%;
     text-align: justify;
