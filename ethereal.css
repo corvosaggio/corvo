@@ -12,12 +12,12 @@
 
 .borda {
     border: 2px solid #87765a;
-    width: 720px;
+    width: 682px;
   }
 
   .total-postitW {
     height: auto;
-    width: 600px;
+    width: 680px;
     margin: auto;
     position: relative;
     padding-top: 1px;
@@ -100,7 +100,7 @@
 
   .loremyaW {
     background: #gfffaf1;
-    margin-top: 80px !important;
+    margin-top: 30px !important;
     width: 600px;
     padding: 20px;
     height: auto;
