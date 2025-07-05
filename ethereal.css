@@ -10,12 +10,12 @@
 }
 
 
-.borda {
+.golden-border {
     border: 2px solid #b2894f;
     width: 700px;
   }
 
-  .total-postitW {
+  .total-post {
     height: auto;
     width: 680px;
     margin: auto;
@@ -45,11 +45,10 @@
     object-fit: contain;
   }
 
-  .nombroW {
+  .title-kayra {
     color: #b2894f;
     font-size: 40px;
     font-family: "Island Moments", cursive;
-    text-transform: lowercase;
     line-height: 100%;
     position: absolute;
     top: 0;
@@ -61,12 +60,11 @@
     z-index: 1;
   }
 
-  .nombro2W {
+  .detail-title {
     color: #9f9898;
     font-size: 10px;
     font-family: Georgia, serif;
-    text-transform: lowercase;
-    line-height: 100%;
+    line-height: 10%;
     position: absolute;
     top: 0;
     border-bottom: 2px solid #bfa77b;
@@ -78,13 +76,12 @@
     letter-spacing: 5px;
   }
 
-  .particiW {
+  .subtitle-kayra {
     position: absolute;
     top: 85px;
     right: 0px;
     max-width: 445px;
     font-family: Georgia, serif;
-    text-transform: uppercase;
     text-align: right;
     font-size: 10px;
     line-height: 100%;
@@ -98,16 +95,18 @@
     padding-left: 5px;
   }
 
-  .loremyaW {
-    background: #gfffaf1;
-    margin-top: 30px !important;
+  .paragraphs {
+    background: #fjffaf1;
+    margin-top: 130px !important;
+    margin-left:20px;
+    margin-bottom:20px;
     width: 600px;
     padding: 20px;
     height: auto;
     color: #2F2E2C;
     font-family: 'Georgia';
     font-size: 14px;
-    line-height: 160%;
+    line-height: 100%;
     text-align: justify;
     position: relative;
   }
@@ -133,12 +132,10 @@
   .gif-caption {
     font-family: 'Playfair Display', serif;
     font-size: 10px;
-    font-style: italic;
     color: #9b652c;
     text-align: left;
     border-left: 1px solid #9b652c;
     padding-left: 8px;
     line-height: 140%;
   }
-
 
